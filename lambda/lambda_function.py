@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     for reservation in response["Reservations"]:
     
     	for instance in reservation["Instances"]:
-    
+            # this will be logged in cloudwatch logs
             print(instance["InstanceId"] + "stopping")
     
             id=[instance["InstanceId"]]
