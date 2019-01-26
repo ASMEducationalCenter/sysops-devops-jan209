@@ -1,2 +1,1 @@
-# sysops-devops-jan209
-files for sysops/devops class
+# Files for sysops class
